@@ -7,6 +7,6 @@
 
 <table>
   <tr>
-    <td><img src="img/Welcome-TogetherWell.png" width=202.5 ></td>
+    <td><img src="img/welcome.png" width=202.5 ></td>
   </tr>
  </table>
