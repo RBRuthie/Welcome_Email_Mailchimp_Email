@@ -34,7 +34,7 @@
 
     body, html {
     width: 100%;
-}
+    }
 
 		body,#bodyTable,#bodyCell{
 			height:100%;
@@ -261,7 +261,10 @@
 			/*@editable*/height:auto !important;
 			/*@editable*/margin:50px 0px 0 0px !important;
 		}
-	@media only screen and (max-width: 480px){
+
+
+/************   MEDIA QUERIES   ************/
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Preheader Visibility
@@ -270,7 +273,8 @@
 			/*@editable*/display:block !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Preheader Text
@@ -279,8 +283,8 @@
 			/*@editable*/font-size:14px !important;
 			/*@editable*/line-height:150% !important;
 		}
-
-}	@media only screen and (max-width: 480px){
+}	
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Header Text
@@ -290,7 +294,8 @@
 			/*@editable*/line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Header Text
@@ -301,7 +306,8 @@
 			/*@editable*/margin: 20px 0px -13px 0px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Header Text
@@ -312,7 +318,8 @@
 			/*@editable*/height:auto !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Body Text
@@ -323,18 +330,10 @@
 		}
 
 }	
-
-@media only screen and (max-width: 600px){
-		.templateImage{
-			width: 250PX !important;
-		}
-
-}
- @media only screen and (max-width: 480px){
-		.templateImage{
-			width: 150PX !important;
+@media only screen and (max-width: 400px){
+		#puzzle-img{
+			width: 190PX !important;
 		} 
-
 }	
 @media only screen and (max-width: 480px){
 	/*
@@ -346,7 +345,8 @@
 			/*@editable*/line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	
+@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
 	@section Footer Text
@@ -355,40 +355,40 @@
 			/*@editable*/width:67% !important;
 			/*@editable*/height:auto !important;
 		}
-
 }	
+/* 960 */
 @media only screen and (max-width: 960px){
 		.main-container{
 			width:600px;
 		}
-
 }	
+/* 600 */
+@media only screen and (max-width: 600px){
+		.templateImage{
+			width: 333PX !important;
+		}
+}
 @media only screen and (max-width: 600px){
 		.main-container{
 			width:100%;
 		}
 
 }
-
 @media only screen and (max-width: 600px){
 		.footer-container,.header-container,.description-container{
 			width:90%; 
 		}
-
 }	
-
 @media only screen and (max-width: 600px){
 		.description-container{
 			margin-top:20px;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.header-title{
 			margin-top:30px !important;
 			margin-bottom: 12px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.header-button{
@@ -396,38 +396,34 @@
 			padding:7px 13px 8px 23px !important;
 			font-size:15px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.description-congrats{
 			font-size:20px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.description-goal{
 			font-size:20px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.icons-title{
 			font-size:20px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.icons-container{
 			padding:0 10px 0 10px !important;
 		}
-
 }	
 @media only screen and (max-width: 600px){
 		.footer-container h1{
 			margin:17px 9px 0 13px !important;
 		}
-
 }
+
+
 </style>
 </head>
 
@@ -487,14 +483,15 @@
           <table id="header-container" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="background-color: #273f4d;"> 
 
               <!--  logo     -->
+							<!--   width= "150px" height="57px"  -->
               <tr>
                 <td align="center" style="font-size:15px; font-weight:700; color:#ffffff; line-height:24px; letter-spacing:2px;">
                   <a href="http://togetherwell.org" target="_blank">
-                    <img src="https://github.com/RBRuthie/Welcome_Email/blob/main/img/logo-1.png?raw=true" alt="TogetherWell-logo" border="0" style="margin: 0; padding: 0;" mc:edit="headerlogo">
+                    <img src="https://github.com/RBRuthie/Welcome_Email/blob/main/img/logo-1.png?raw=true" max-width= "288px" width= "288px" height="121px" alt="TogetherWell-logo" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="headerlogo">
                   </a>
                 </td>
               </tr>
-  
+							
               <!-- title -->
               <tr align="center">
                 <td valign="top">
@@ -548,7 +545,7 @@
                     <td>
                     <![endif]-->
                     <div style="text-align: center; margin-top: 40px;" mc:edit="body_image">
-                      <img src="https://github.com/RBRuthie/Welcome_Email/blob/main/img/puzzle-img.png?raw=true" style="max-width:564px;" class="templateImage" mc:label="body_image" mc:allowdesigner="" mc:allowtext="">
+                      <img src="https://github.com/RBRuthie/Welcome_Email/blob/main/img/puzzle-img.png?raw=true" max-width= "500px" width="500px" height="auto" alt="puzzle-img" rel="noopener" class="templateImage" id="puzzle-img" mc:label="body_image" mc:allowdesigner="" mc:allowtext="">
                     </div>
 
                     <h1 class="description-congrats" style="margin: 0px 30px 0 30px; text-align: center;  font-weight: normal; font-size: 26px;" mc:edit="body_content1">Congratulations on becoming an active member of TogetherWell.</h1>
@@ -587,7 +584,7 @@
 						<!-- linkedin -->
             <td align="center">
               <a href="https://www.linkedin.com/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/13fe0838-ce5e-e8d8-35d8-0209532ffab6.png" alt="linkedin" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon1"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/13fe0838-ce5e-e8d8-35d8-0209532ffab6.png" width= "35px" height="auto" alt="linkedin" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon1"
                 >
               </a>
             </td>
@@ -595,7 +592,7 @@
 						<!-- instagram -->
             <td>
               <a href="https://www.instagram.com/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/16b5c65a-11f1-8c68-afb6-19c73dbc7e19.png" alt="instagram" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon2"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/16b5c65a-11f1-8c68-afb6-19c73dbc7e19.png" width= "35px" height="auto" alt="instagram" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon2"
                 >
               </a>
             </td>
@@ -603,7 +600,7 @@
 						<!-- facebook -->
             <td>
               <a href="https://www.facebook.com/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/4eba838b-8261-f3ae-2012-103df8ce02a7.png" alt="facebook" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon4"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/4eba838b-8261-f3ae-2012-103df8ce02a7.png" width= "35px" height="auto"  alt="facebook" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon4"
                 >
               </a>
             </td>
@@ -611,7 +608,7 @@
 						<!-- youtube -->
             <td>
               <a href="https://www.youtube.com/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/00d18a88-5231-539e-6715-fb0c728a5ef0.png" alt="youtube" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon5"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/00d18a88-5231-539e-6715-fb0c728a5ef0.png" width= "35px" height="auto"  alt="youtube" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon5"
                 >
               </a>
             </td>
@@ -619,7 +616,7 @@
 						<!-- twitter -->
             <td>
               <a href="https://www.twitter.com/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/55862260-effc-7ee9-2a7a-a26da791607b.png" alt="twitter" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon6"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/55862260-effc-7ee9-2a7a-a26da791607b.png" width= "35px" height="auto"  alt="twitter" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon6"
                 >
               </a>
             </td>
@@ -627,7 +624,7 @@
 						<!-- tiktok -->
             <td>
               <a href="https://www.tiktok.com/login/" target="_blank">
-                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/1c9bb378-3666-5303-c021-4415271d43a2.png" alt="tiktok" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon7"
+                <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/1c9bb378-3666-5303-c021-4415271d43a2.png" width= "35px" height="auto" alt="tiktok" rel="noopener" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon7"
                 >
               </a>
             </td>
