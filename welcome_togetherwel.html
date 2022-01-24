@@ -147,7 +147,7 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 			/*@editable*/font-size:36px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
-			/*@editable*/margin:40px 0 10px 0;
+			/*@editable*/margin:40px 0 25px 0;
 		}
 	/*
 	@tab Header
@@ -268,7 +268,91 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 		}
 
 
+
+
+
+
+
+		
+
 /************   MEDIA QUERIES   ************/
+
+
+/* 960 */
+@media only screen and (max-width: 960px){
+		.main-container{
+			width:600px;
+		}
+}	
+
+
+/* 600 */
+@media only screen and (max-width: 600px){
+		.templateImage{
+			width: 333px !important;
+		}
+}
+@media only screen and (max-width: 600px){
+		.main-container{
+			width:100%;
+		}
+}
+@media only screen and (max-width: 600px){
+		.footer-container,.header-container,.description-container{
+			width:90%; 
+		}
+}	
+@media only screen and (max-width: 600px){
+		.description-container{
+			margin-top: 20px !important;
+		}
+}	
+@media only screen and (max-width: 600px){
+		.header-title{
+			margin-top:30px !important;
+			margin-bottom: 12px !important;
+		}
+}	
+ /* @media only screen and (max-width: 600px){
+		.header-button{
+			margin-top:5px !important;
+			padding:7px 13px 8px 23px !important;
+			font-size:15px !important;
+		}
+}	  */
+@media only screen and (max-width: 600px){
+		.templateImage{
+			width: 90% !important;
+		}
+}
+@media only screen and (max-width: 600px){
+		.description-congrats{
+			font-size: 24px !important;
+		}
+}	
+@media only screen and (max-width: 600px){
+		.description-goal{
+			font-size: 24px !important;
+		}
+}	
+@media only screen and (max-width: 600px){
+		.icons-title{
+			font-size: 25px !important;
+		}
+}	
+@media only screen and (max-width: 600px){
+		.icons-container{
+			padding:0 10px 11px 10px !important;
+		}
+}	
+@media only screen and (max-width: 600px){
+		.footer-container h1{
+			margin:17px 9px 0 13px !important;
+		}
+}
+
+/* 480 */
+
 @media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
@@ -277,7 +361,6 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 		#templatePreheader{
 			/*@editable*/display:block !important;
 		}
-
 }
 @media only screen and (max-width: 480px){
 	/*
@@ -295,8 +378,9 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 	@section Header Text
 	*/
 		#templateHeader,#templateHeader p{
-			/*@editable*/font-size:27px !important;
+			/*@editable*/font-size: 22px !important;
 			/*@editable*/line-height:150% !important;
+			/*@editable*/padding-bottom: 12px !important;
 		}
 
 }	
@@ -318,8 +402,8 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 	@section Header Text
 	*/
 		#templateHeader,#templateHeader a{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/padding:0px 0px !important;
+			/*@editable*/font-size:16px !important;
+			/*@editable*/padding:8px 0px !important;
 			/*@editable*/height:auto !important;
 		}
 
@@ -333,12 +417,10 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 			/*@editable*/font-size:16px !important;
 			/*@editable*/line-height:150% !important;
 		}
+		.description-congrats, .description-goal, .icons-title{
+			font-size:16px !important;
+		}
 
-}	
-@media only screen and (max-width: 400px){
-		#puzzle-img{
-			width: 190PX !important;
-		} 
 }	
 @media only screen and (max-width: 480px){
 	/*
@@ -361,73 +443,11 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 			/*@editable*/height:auto !important;
 		}
 }	
-/* 960 */
-@media only screen and (max-width: 960px){
-		.main-container{
-			width:600px;
-		}
-}	
-/* 600 */
-@media only screen and (max-width: 600px){
-		.templateImage{
-			width: 333PX !important;
-		}
-}
-@media only screen and (max-width: 600px){
-		.main-container{
-			width:100%;
-		}
-
-}
-@media only screen and (max-width: 600px){
-		.footer-container,.header-container,.description-container{
-			width:90%; 
-		}
-}	
-@media only screen and (max-width: 600px){
-		.description-container{
-			margin-top:20px;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.header-title{
-			margin-top:30px !important;
-			margin-bottom: 12px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.header-button{
-			margin-top:5px !important;
-			padding:7px 13px 8px 23px !important;
-			font-size:15px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.description-congrats{
-			font-size:20px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.description-goal{
-			font-size:20px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.icons-title{
-			font-size:20px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.icons-container{
-			padding:0 10px 0 10px !important;
-		}
-}	
-@media only screen and (max-width: 600px){
-		.footer-container h1{
-			margin:17px 9px 0 13px !important;
-		}
-}
-
+/* @media only screen and (max-width: 400px){
+		#puzzle-img{
+			width: 190PX !important;
+		} 
+}	 */
 
 </style>
 </head>
@@ -496,6 +516,7 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
                   <a rel="preconnect" href="http://togetherwell.org" target="_blank"  rel="noopener noreferrer" >
                     <img src="https://github.com/RBRuthie/Welcome_Email_Mailchimp_Email/blob/main/img/logo-white-157.png?raw=true" width= "150px" height="57px" alt="TogetherWell-logo" border="0" style="margin: 0; padding: 0;" mc:edit="headerlogo"
 										>
+										<!--  -->
                   </a>
                 </td>
               </tr>
@@ -552,13 +573,14 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
                     <tr>
                     <td>
                     <![endif]-->
-                    <div style="text-align: center; margin-top: 40px;" mc:edit="body_image">
-                      <img src="https://github.com/RBRuthie/Welcome_Email/blob/main/img/puzzle-img.png?raw=true" height= "500px" width="500px" alt="puzzle-img" class="templateImage" id="puzzle-img" mc:label="body_image" mc:allowdesigner="" mc:allowtext="">
+
+                    <div style="text-align: center; margin-top: 20px;" mc:edit="body_image">
+                      <img src="/img/group.png" height="500px" width="500px" alt="puzzle-img" class="templateImage" id="puzzle-img" mc:label="body_image" mc:allowdesigner="" mc:allowtext="">
                     </div>
 
-                    <h1 class="description-congrats" style="margin: 0px 30px 0 30px; text-align: center;  font-weight: normal; font-size: 26px;" mc:edit="body_content1">Congratulations on becoming an active member of TogetherWell.</h1>
+										<h1 class="description-congrats" style="margin-top: 26px; text-align: center;  font-weight: normal; font-size: 28px;" mc:edit="body_content1">Congratulations on becoming an active member of TogetherWell.</h1>
 
-                    <h1 class="description-goal" style="margin: 24px 30px 24px 30px; text-align: center; font-weight: normal; font-size: 26px;" mc:edit="body_content2">Our goal is to help improve the well-being of families and communities in need by making critical information and support more accessible and affordable.</h1> 
+                    <h1 class="description-goal" style="margin: 24px 30px 24px 30px; text-align: center; font-weight: normal; font-size: 28px;" mc:edit="body_content2">Our goal is to help improve the well-being of families and communities in need by making critical information and support more accessible and affordable.</h1> 
 
 
                   <!-- line divider -->
@@ -567,7 +589,7 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 
                     <!-- "we love staying connected " -->
-                    <h1 class="icons-title" style="margin: 25px 30px 0px 30px; font-weight: normal; font-size: 26px; " mc:edit="body_content4">We love staying connected:</h1>
+                    <h1 class="icons-title" style="margin: 25px 30px -20px 30px; font-weight: normal; font-size: 28px; " mc:edit="body_content4">We love staying connected:</h1>
                     <!--[if gte mso 9]>
                     </td>
                     </tr>
@@ -585,12 +607,12 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
       <td valign="top" id="templateFooter">
 
 
-        <!--  footer social media icons -->
-        <table class="icons-container" width="90%" cellspacing="0" cellpadding="0" border="0" align="center" style=" padding: 0px 80px 20px 80px; background-color: #FFFFFF;">
+      <!--  footer social media icons -->
+			<table class="icons-container" width="90%" cellspacing="0" cellpadding="0" border="0" align="center" style=" background-color: #FFFFFF;">
           <tr>
           
 						<!-- linkedin -->
-            <td align="center">
+            <td align="center" >
               <a rel="preconnect" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                 <img src="https://mcusercontent.com/629967d01342524ee817d3a5e/images/13fe0838-ce5e-e8d8-35d8-0209532ffab6.png" width= "35px" height="auto" alt="linkedin" border="0" style="margin: 0; padding: 0;" mc:edit="footer_icon1"
                 >
@@ -638,7 +660,6 @@ HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
             </td>
 
 
-						
 
           </tr> 
         </table>
